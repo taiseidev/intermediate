@@ -39,6 +39,7 @@ class Datasource() {
     }
 }
 
+// objectを使用すると自動的にシングルトンとして扱われる。インスタンス化は不要でグローバルにアクセス可能
 object DataSource {
     val topics = listOf(
         Topic(R.string.architecture, 58, R.drawable.architecture),
